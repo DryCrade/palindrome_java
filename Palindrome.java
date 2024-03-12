@@ -8,7 +8,6 @@ public class Palindrome {
             queue.add(c);
         }
 
-        System.out.println(queue.peekFirst());
         while (queue.size() > 1) {
             if (!Objects.equals(queue.pollFirst(), queue.pollLast())) {
                 return ("This is not a palindrome");
