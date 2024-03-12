@@ -1,7 +1,5 @@
 import java.util.*;
 
-import static java.lang.System.exit;
-
 public class Palindrome {
     public static String checkPalindrome (String str) {
         ArrayDeque<Character> queue = new ArrayDeque<>();
